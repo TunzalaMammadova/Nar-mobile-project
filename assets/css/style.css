@@ -1,0 +1,241 @@
+.row {
+    margin-top: 10px;
+}
+
+.header-up-left ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header-up-left ul li a {
+    text-decoration: none;
+    color: rgb(91, 90, 90);
+    font-size: 15px;
+    font-family: ALSSchlangesans, sans-serif;
+    cursor: pointer;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-up-left .buton1 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: ALSSchlangesans, sans-serif;
+    cursor: pointer;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #d43157;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border1 {
+    width: 1px;
+    height: 25px;
+    background-color: gray;
+    margin-top: 8px;
+    margin-left: -10px;
+}
+
+.header-up-right {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.header-up-right .support {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #d43157;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-up-right .support i{
+    color: #d43157;
+}
+
+.header-up-right .empty{
+    height: 20px;
+    width: 1px;
+    margin-top: 10px;
+    background-color: rgb(203, 203, 203);
+}
+
+
+
+.header-up-right .icon {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #d43157;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.header-up-right .icon .icon-1 {
+    color: #d43157;
+    font-size: 30px;
+    margin-top: -3px;
+
+
+}
+
+.header-up-right .icon .icon-2 {
+    color: grey;
+    font-weight: bold;
+    margin-top: 3px;
+
+}
+
+
+.header-up-right select {
+    width: 70px;
+    height: 40px;
+    border: 1px solid #d43157;
+    border-radius: 20px;
+    -webkit-appearance: none;
+    padding-left: 15px;
+    color: #d43157;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header-up-right .select i {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 15px;
+    color: #d43157;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.header-up-right option {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-down-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-down-left .content ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.header-down-left .content ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+.header-down-left .content i {
+    font-size: 10px;
+    color: white;
+}
+
+.header-down-left .logo img {
+    height: 20px;
+    width: 98px;
+    margin-top: -10px;
+}
+
+
+.header-down{
+    display: flex;
+    justify-content: space-around;
+    background-color: #d43157;
+}
+
+.header-down:hover{
+    background-color:white;
+}
+
+.header-down-right svg {
+    font-size: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.header-down-right .menu-bar {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245)
+}
+
+.header-down-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+.header-down-right .join ul {
+    list-style: none;
+}
+
+.header-down-right .join {
+    margin-left: -50px;
+}
+
+.header-down-right .join ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #d43157;
+    font-size: 13px;
+}
+
+.header-down-right .login {
+    margin-top: -6px;
+}
+
+.header-down-right .login button {
+    color: #e00034;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header-down-right .login button:hover {
+    border: 2px solid #d43157;
+    border-radius: 10px;
+}
+
+.logos {
+    background-color: red;
+}
