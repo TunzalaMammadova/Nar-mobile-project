@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
-}
+} */
 
 .header-up {
     display: flex;
@@ -11,20 +11,13 @@
     width: 100%;
 }
 
-
-.header-down {
-    display: flex;
-    justify-content: space-around;
-    background-color: #d43157;
-    height: 80px;
-    width: 100%;
-}
-
 .header-up-left {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: -50px;
+}
 
+.col-6{
+    width: 50%;
 }
 
 .header-up-left ul {
@@ -50,7 +43,6 @@
     justify-content: center;
 }
 
-
 .header-up-left .buton1 li a {
     text-decoration: none;
     color: white;
@@ -71,13 +63,14 @@
     width: 1px;
     height: 25px;
     background-color: gray;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header-up-right {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    margin-left: 350px;
+   
 
 }
 
@@ -101,7 +94,6 @@
     margin-top: 10px;
     background-color: rgb(203, 203, 203);
 }
-
 
 .header-up-right .icon {
     display: flex;
@@ -147,6 +139,14 @@
     font-size: 12px;
 }
 
+.header-down {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d43157;
+    height: 80px;
+    width: 100%;
+}
+
 .header-down-left {
     display: flex;
     justify-content: center;
@@ -154,11 +154,9 @@
     margin-top: 20px;
 }
 
-
 .header-down-left .logo {
     margin-top: -20px;
 }
-
 
 .header-down-left .logo img {
     width: 60px;
@@ -179,7 +177,6 @@
 
 .header-down-left .content ul li a:hover {
     background-color: #d43157;
-
 }
 
 .header-down-left .content i {
@@ -190,11 +187,6 @@
 .header-down-left .content li:hover a i {
     rotate: 180deg;
 }
-
-
-/* .header-down:hover{
-    background-color:white;
-} */
 
 .header-up-right option {
     display: flex;
@@ -241,7 +233,6 @@
 .header-down-right .menu-bar .menu .more ul li a {
     text-decoration: none;
     color: #d43157;
-
 }
 
 .header-down-right .login {
